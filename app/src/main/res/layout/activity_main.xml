@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="success"
+        android:onClick="click"
+
+        android:id="@+id/successId"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:onClick="click"
+        android:layout_marginTop="10dp"
+        android:id="@+id/errorId"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="confused"
+        android:onClick="click"
+        android:layout_marginTop="10dp"
+        android:id="@+id/confusionId"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info"
+        android:onClick="click"
+        android:layout_marginTop="10dp"
+        android:id="@+id/infoId"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="worning"
+        android:onClick="click"
+        android:layout_marginTop="10dp"
+        android:id="@+id/warningId"/>
+
+
+</LinearLayout>
